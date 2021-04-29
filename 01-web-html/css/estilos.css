@@ -1,0 +1,77 @@
+h1 {
+    color: #437ce6;
+    text-align: center;
+}
+
+h3 {
+    color: #0a3c7c;
+    text-align: center;
+}
+
+.menuVolver {
+    margin-top: 15px;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.label {
+    font-weight: bold;
+    font-size: large;
+}
+
+.importante {
+    color: red;
+}
+
+body {
+    background: rgb(177, 177, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+	border: 1px solid rgb(71, 100, 197);
+    
+}
+
+th {
+    border: 2px solid rgb(71, 100, 197);
+    background: rgb(71, 100, 197);
+    color: rgb(0, 0, 0);
+}
+
+td {
+    border: 1px solid rgb(71, 100, 197);
+    font-style: italic;
+    color: rgb(38, 60, 158);
+}
+
+.index {
+    text-align: center;
+    
+}
+
+@keyframes donut-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.donut {
+    display: inline-block;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: tomato;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: donut-spin 2s linear infinite;
+}
+
+.botonInicial {
+    text-align: center;
+}
