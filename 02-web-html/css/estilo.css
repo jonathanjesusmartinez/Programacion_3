@@ -1,0 +1,36 @@
+.textoInicial {
+    text-align: center;
+    
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: rgb(47, 51, 97);
+}
+
+table {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgb(126, 135, 150);
+}
+
+.card {
+    width: 18rem; 
+    background-color: cornflowerblue;
+}
+
+.list-group-item {
+    background-color: rgb(36, 36, 36); 
+    color: blanchedalmond;
+}
+
+.form-label {
+    color: aliceblue;
+    font-weight: bold;
+}
